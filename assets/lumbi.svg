@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -48 480 480" fill="none">
+  <!-- Lumbi app icon, concept F1 (Stitch, project 5866584032886854690): a front-view game controller whose plain round
+       guide button glows warm white. No brand marks. -->
+  <defs>
+      <radialGradient id="guideGlowF1" cx="240" cy="116" r="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFE0A3" stop-opacity="0.85"/>
+      <stop offset="28%" stop-color="#F2C27B" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#FFC86B" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFC86B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chassisGradF1" x1="240" y1="58" x2="240" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3C424E"/>
+      <stop offset="22%" stop-color="#303540"/>
+      <stop offset="70%" stop-color="#232730"/>
+      <stop offset="100%" stop-color="#181B22"/>
+    </linearGradient>
+    <linearGradient id="chassisTopBevel" x1="160" y1="62" x2="320" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="bumperGradF1" x1="0" y1="48" x2="0" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#252A34"/>
+      <stop offset="100%" stop-color="#14161C"/>
+    </linearGradient>
+    <radialGradient id="stickWellGrad" cx="152" cy="164" r="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#13151A"/>
+      <stop offset="85%" stop-color="#1B1E26"/>
+      <stop offset="100%" stop-color="#2C313C"/>
+    </radialGradient>
+    <radialGradient id="stickCapGrad" cx="150" cy="160" r="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#171920"/>
+      <stop offset="65%" stop-color="#232832"/>
+      <stop offset="92%" stop-color="#333947"/>
+      <stop offset="100%" stop-color="#1E222B"/>
+    </radialGradient>
+    <radialGradient id="stickWellGradR" cx="298" cy="226" r="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#13151A"/>
+      <stop offset="85%" stop-color="#1B1E26"/>
+      <stop offset="100%" stop-color="#2C313C"/>
+    </radialGradient>
+    <radialGradient id="stickCapGradR" cx="296" cy="223" r="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#171920"/>
+      <stop offset="65%" stop-color="#232832"/>
+      <stop offset="92%" stop-color="#333947"/>
+      <stop offset="100%" stop-color="#1E222B"/>
+    </radialGradient>
+    <linearGradient id="faceBtnGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2F3440"/>
+      <stop offset="100%" stop-color="#171A21"/>
+    </linearGradient>
+    <linearGradient id="dpadGrad" x1="152" y1="202" x2="152" y2="266" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2C313D"/>
+      <stop offset="100%" stop-color="#191B22"/>
+    </linearGradient>
+    <clipPath id="bodyClip">
+      <path d="M 130 64 C 170 56, 205 54, 240 54 C 275 54, 310 56, 350 64 C 395 74, 425 110, 437 160 C 450 215, 450 270, 432 310 C 420 336, 392 346, 370 334 C 345 320, 330 290, 316 268 C 300 246, 275 238, 240 238 C 205 238, 180 246, 164 268 C 150 290, 135 320, 110 334 C 88 346, 60 336, 48 310 C 30 270, 30 215, 43 160 C 55 110, 85 74, 130 64 Z"/>
+    </clipPath>
+  </defs>
+  <!-- Shoulder bumpers peeking out behind the top corners. -->
+  <path d="M 116 74 C 138 54, 182 46, 204 46 C 208 50, 208 66, 204 70 C 176 70, 136 72, 116 74 Z" fill="url(#bumperGradF1)"/>
+  <path d="M 364 74 C 342 54, 298 46, 276 46 C 272 50, 272 66, 276 70 C 304 70, 344 72, 364 74 Z" fill="url(#bumperGradF1)"/>
+  <!-- Body, from the owner's reference photo: wide arched top, long thick grips going down and outward with round tips,
+       a wide arch between them. -->
+  <path d="M 130 64 C 170 56, 205 54, 240 54 C 275 54, 310 56, 350 64 C 395 74, 425 110, 437 160
+           C 450 215, 450 270, 432 310 C 420 336, 392 346, 370 334 C 345 320, 330 290, 316 268
+           C 300 246, 275 238, 240 238 C 205 238, 180 246, 164 268 C 150 290, 135 320, 110 334
+           C 88 346, 60 336, 48 310 C 30 270, 30 215, 43 160 C 55 110, 85 74, 130 64 Z" fill="url(#chassisGradF1)" stroke="#767E8F" stroke-opacity="0.7" stroke-width="5"/>
+  <path d="M 132 67 C 170 59, 205 57, 240 57 C 275 57, 310 59, 348 67 C 386 76, 414 104, 426 140" stroke="url(#chassisTopBevel)" stroke-linecap="round" stroke-width="2.4"/>
+  <!-- The guide button, top center: the only light. -->
+  <circle cx="240" cy="116" r="85" fill="url(#guideGlowF1)" clip-path="url(#bodyClip)"/>
+  <g transform="translate(0, -32)">
+    <circle cx="240" cy="148" r="24" fill="#14171E" stroke="#3A404F" stroke-width="1.5"/>
+    <circle cx="240" cy="148" r="20" fill="#1E222B"/>
+    <circle cx="240" cy="148" r="14" fill="#FCE7BD"/>
+    <circle cx="240" cy="148" r="9" fill="#FFF8EB"/>
+    <circle cx="240" cy="148" r="4.5" fill="#FFFFFF"/>
+  </g>
+  <!-- Three small buttons under it. -->
+  <circle cx="212" cy="152" r="4.5" fill="#1B1E26" stroke="#2D3340" stroke-width="1"/>
+  <circle cx="240" cy="164" r="4.2" fill="#1B1E26" stroke="#2D3340" stroke-width="1"/>
+  <circle cx="268" cy="152" r="4.5" fill="#1B1E26" stroke="#2D3340" stroke-width="1"/>
+  <g transform="translate(-4, -14)">
+  <circle cx="152" cy="164" r="40" fill="url(#stickWellGrad)" stroke="#121419" stroke-width="1.5"/>
+  <path d="M 116 156 A 38 38 0 0 1 188 156 A 38 24 0 0 0 116 156 Z" fill="#0E1015" fill-opacity="0.6"/>
+  <circle cx="152" cy="162" r="28" fill="url(#stickCapGrad)"/>
+  <circle cx="152" cy="162" r="25" stroke="#485060" stroke-opacity="0.4" stroke-width="1.2"/>
+  <circle cx="152" cy="162" r="17" fill="#14161C"/>
+  <path d="M 139 160 A 13 13 0 0 1 165 160 A 13 8 0 0 0 139 160 Z" fill="#292F3B" fill-opacity="0.5"/>
+  </g>
+  <!-- D-pad: lower, toward the center, as on the real controller. -->
+  <g transform="translate(36, -12)">
+    <circle cx="152" cy="236" r="33" fill="#16181F" stroke="#222631" stroke-width="1"/>
+    <path d="M 143 208 C 143 206, 145 204, 147 204 L 157 204 C 159 204, 161 206, 161 208 L 161 227 L 180 227 C 182 227, 184 229, 184 231 L 184 241 C 184 243, 182 245, 180 245 L 161 245 L 161 264 C 161 266, 159 268, 157 268 L 147 268 C 145 268, 143 266, 143 264 L 143 245 L 124 245 C 122 245, 120 243, 120 241 L 120 231 C 120 229, 122 227, 124 227 L 143 227 Z" fill="url(#dpadGrad)" stroke="#394050" stroke-width="1"/>
+    <circle cx="152" cy="236" r="6.5" fill="#13151A"/>
+  </g>
+  <!-- Face buttons, upper right; right stick, lower toward the center. -->
+  <g transform="translate(8, -12)">
+  <circle cx="328" cy="132" r="11" fill="url(#faceBtnGrad)" stroke="#4A5263" stroke-width="1.2"/>
+  <ellipse cx="328" cy="129" rx="7" ry="3.5" fill="#FFFFFF" fill-opacity="0.12"/>
+  <circle cx="304" cy="156" r="11" fill="url(#faceBtnGrad)" stroke="#4A5263" stroke-width="1.2"/>
+  <ellipse cx="304" cy="153" rx="7" ry="3.5" fill="#FFFFFF" fill-opacity="0.12"/>
+  <circle cx="352" cy="156" r="11" fill="url(#faceBtnGrad)" stroke="#4A5263" stroke-width="1.2"/>
+  <ellipse cx="352" cy="153" rx="7" ry="3.5" fill="#FFFFFF" fill-opacity="0.12"/>
+  <circle cx="328" cy="180" r="11" fill="url(#faceBtnGrad)" stroke="#4A5263" stroke-width="1.2"/>
+  <ellipse cx="328" cy="177" rx="7" ry="3.5" fill="#FFFFFF" fill-opacity="0.12"/>
+  </g>
+  <g transform="translate(-10, -8)">
+  <circle cx="298" cy="226" r="40" fill="url(#stickWellGradR)" stroke="#121419" stroke-width="1.5"/>
+  <path d="M 262 218 A 38 38 0 0 1 334 218 A 38 24 0 0 0 262 218 Z" fill="#0E1015" fill-opacity="0.6"/>
+  <circle cx="298" cy="224" r="28" fill="url(#stickCapGradR)"/>
+  <circle cx="298" cy="224" r="25" stroke="#485060" stroke-opacity="0.4" stroke-width="1.2"/>
+  <circle cx="298" cy="224" r="17" fill="#14161C"/>
+  <path d="M 285 222 A 13 13 0 0 1 311 222 A 13 8 0 0 0 285 222 Z" fill="#292F3B" fill-opacity="0.5"/>
+  </g>
+</svg>
