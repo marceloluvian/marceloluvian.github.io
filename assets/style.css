@@ -64,6 +64,14 @@ ul { padding-left: 22px; }
 .app + .app { margin-top: 16px; }
 .levels { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 16px 0; }
 .levels div { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px; text-align: center; font-size: 15px; }
+.downloads { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 16px 0 8px; }
+.downloads .card { display: flex; flex-direction: column; gap: 6px; }
+.downloads h3 { margin: 0; font-size: 18px; }
+.downloads p { margin: 0; color: var(--muted); font-size: 15px; }
+.btn { display: inline-block; margin-top: 10px; padding: 10px 18px; border-radius: 8px; background: var(--accent); color: #1a1a1a; font-weight: 600; text-decoration: none; text-align: center; }
+.btn:hover { filter: brightness(1.08); }
+.btn.soon { background: transparent; color: var(--muted); border: 1px solid var(--line); cursor: default; }
+@media (max-width: 560px) { .downloads { grid-template-columns: 1fr; } }
 .note { border-left: 3px solid var(--glow); padding: 4px 0 4px 14px; color: var(--muted); }
 .mail { font-size: 20px; font-weight: 600; }
 
